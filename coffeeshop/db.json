@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "description": "Espresso is a concentrated form of coffee brewed with high pressure, hot water and finely ground coffee beans.",
+      "id": "1",
+      "image": "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 30,
+      "title": "Espresso"
+    },
+
+    {
+      "description": "Double espresso is a double shot which is extracted using double the amount of ground coffee in a larger-sized portafilter basket. ",
+      "id": "2",
+      "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 40,
+      "title": "Double Espresso"
+    },
+
+    {
+      "description": "The Red Eye coffee is a classic espresso drink containing drip-brew coffee, which makes the coffee stronger.",
+      "id": "3",
+      "image": "https://images.pexels.com/photos/6207304/pexels-photo-6207304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 25,
+      "title": "Red eye "
+    },
+
+    {
+      "description": "A black eye coffee is a standard cup of filter coffee with a double shot of espresso poured on top. The black eye is so named because the double espresso shot has the appearance of a black eye when it is poured into the filter coffee.",
+      "id": "4",
+      "image": "https://images.pexels.com/photos/14379007/pexels-photo-14379007.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 18,
+      "title": "Black eye "
+    },
+
+    {
+      "description": "An americano, combines freshly pulled shots of espresso with hot water to achieve the size of a standard cup of brewed coffee",
+      "id": "5",
+      "image": "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 20,
+      "title": "Americano"
+    },
+
+    {
+      "description": "A flat white is an espresso-based drink that contains steamed milk",
+      "id": "6",
+      "image": "https://images.pexels.com/photos/4195322/pexels-photo-4195322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": 25,
+      "title": "Flate white"
+    }
+
+  ]
+}
