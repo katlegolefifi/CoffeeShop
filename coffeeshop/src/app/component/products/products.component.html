@@ -1,9 +1,16 @@
 <div class="container">
     <div class="row">
+<ng-container *ngFor="let item of productist">
+        <div class="card col-md-3">
 
-        <div class="card">
 
-            <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            <img src="{{item.image}}" alt="">
+            <h5 style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100ch;">{{item.title}}</h5>
+            <p style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100ch;">{{item.description}}</p>
+            <p><strong>Amount:</strong>R {{item.price}}</p>
+            <button class="btn btn-dark">Add to cart</button>
+
         </div>
+    </ng-container>
     </div>
 </div>
