@@ -1,0 +1,48 @@
+<section class="vh-100 bg-image"
+  style="background-image: url('https://images.pexels.com/photos/7507365/pexels-photo-7507365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">LOGIN</h2>
+
+              <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login">
+
+
+                <div class="form-outline mb-4">
+                  <input formControlName="email" type="email" id="form3Example3cg" class="form-control form-control-lg" placeholder="Email"/>
+                  <div *ngIf="f.email.touched && f.email.invalid" class="alert alert-danger">
+                    <div *ngIf="f.email.errors?.['required']">Email is required.</div>
+                    <div *ngIf="f.email.errors?.['email']">Please enter valid email address.</div>
+                    </div>
+                  <label class="form-label" for="form3Example3cg">Your Email</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input formControlName = "password" type="password" id="form3Example4cg" class="form-control form-control-lg" placeholder="Password"/>
+                    <div *ngIf="f.password.touched && f.password.invalid" class="alert alert-danger">
+                      <div *ngIf="f.password.errors?.['required']">Password is required.</div>
+                     </div>
+                    <label class="form-label" for="form3Example4cg">Password</label>
+                  </div>
+
+
+                <div class="d-flex justify-content-center">
+                  <button (onClick)="login()" type="button"
+                    class="btn btn-success btn-block btn-lg linear-gradient text-body">Login</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0">Don't have an account? <a href="#!"
+                    class="fw-bold text-body"><u>Register here</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
